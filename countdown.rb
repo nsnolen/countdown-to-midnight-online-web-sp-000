@@ -2,10 +2,9 @@
 
 def countdown(number)
   counter = 10
-  until counter == 0
+  while counter > 1
   puts "#{number} SECOND(S)!"
   counter -= 1
-
 end
 
  "HAPPY NEW YEAR!"
